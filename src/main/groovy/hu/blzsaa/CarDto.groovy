@@ -1,5 +1,11 @@
 package hu.blzsaa
 
+
+import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
+
+@ToString(includeNames=true)
+@EqualsAndHashCode
 class CarDto {
     int numberOfDoors
     String model
